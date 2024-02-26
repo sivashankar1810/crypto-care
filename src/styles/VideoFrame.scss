@@ -1,0 +1,43 @@
+.card-deck{
+    display: flex;
+     flex-direction: row;
+    padding: 1rem;
+   
+}
+.card{
+     padding-left: 1rem;
+    width: 70%;
+}
+.video-frame-div{
+    padding-top: 2rem;
+    padding-left: .1rem;
+
+}
+.card-text{
+    font-size: 1.2rem;
+}
+.vid-title{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 14px;
+  
+}
+@media only screen and (max-width: 550px) {
+    .card-deck{
+        display: flex;
+         flex-direction: column;
+        padding: .5rem;
+       
+    }
+    .card{
+        width: 90%;
+    }
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "uuid": "Qwsogvtv82FCd",
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "color": "#f7931A",
+
+    "marketCap": "370883814274",
+    "price": "19328.965057552698",
+    "listedAt": 1330214400,
+    "tier": 1,
+    "change": "-13.93",
+    "rank": 1,
+    "lowVolume": false,
+
+    "24hVolume": "27068376420",
+    "btcPrice": "1"
+  },
+
+  {
+    "uuid": "Qwsogvtv82FCd",
+    "symbol": "DOGE",
+    "name": "Doge",
+    "color": "#f7931A",
+
+    "marketCap": "370883812981",
+    "price": "19328.965093898",
+    "listedAt": 1330214400,
+    "tier": 1,
+    "change": "-13.93",
+    "rank": 1,
+    "lowVolume": false,
+
+    "24hVolume": "27068376420",
+    "btcPrice": "1"
+  },
+  {
+    "uuid": "Qwsogvtv82FCd",
+    "symbol": "DOGE",
+    "name": "Doge",
+    "color": "#f7931A",
+
+    "marketCap": "370883812981",
+    "price": "19328.965093898",
+    "listedAt": 1330214400,
+    "tier": 1,
+    "change": "-13.93",
+    "rank": 1,
+    "lowVolume": false,
+
+    "24hVolume": "27068376420",
+    "btcPrice": "1"
+  },
+  {
+    "uuid": "Qwsogvtv82FCd",
+    "symbol": "DOGE",
+    "name": "Doge",
+    "color": "#f7931A",
+
+    "marketCap": "370883812981",
+    "price": "19328.965093898",
+    "listedAt": 1330214400,
+    "tier": 1,
+    "change": "-13.93",
+    "rank": 1,
+    "lowVolume": false,
+
+    "24hVolume": "27068376420",
+    "btcPrice": "1"
+  },
+  {
+    "uuid": "Qwsogvtv82FCd",
+    "symbol": "DOGE",
+    "name": "Doge",
+    "color": "#f7931A",
+
+    "marketCap": "370883812981",
+    "price": "19328.965093898",
+    "listedAt": 1330214400,
+    "tier": 1,
+    "change": "-13.93",
+    "rank": 1,
+    "lowVolume": false,
+
+    "24hVolume": "27068376420",
+    "btcPrice": "1"
+  }
+]

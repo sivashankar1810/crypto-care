@@ -1,0 +1,104 @@
+{
+  "homepage": ".",
+  "name": "react17.0.2-template-1.0",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@reduxjs/toolkit": "^1.8.6",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "ant-design-draggable-modal": "^1.0.0",
+    "antd": "^4.23.4",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1",
+    "chart.js": "^3.9.1",
+    "highcharts": "^8.2.0",
+    "highcharts-3d": "^0.1.7",
+    "highcharts-react-official": "^3.0.0",
+    "html-react-parser": "^3.0.4",
+    "millify": "^5.0.1",
+    "node-sass": "^7.0.3",
+    "react": "16.14.0",
+    "react-bootstrap": "^2.5.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-crypto-chart": "^0.0.6",
+    "react-dom": "^16.14.0",
+    "react-icons": "^4.4.0",
+    "react-player": "^2.13.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.3",
+    "react-search-autocomplete": "^8.2.1",
+    "redux": "^4.2.0",
+    "saas": "^1.0.0",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.5.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test src/test/ -u  --env=jsdom --testResultsProcessor ./node_modules/jest-sonar-reporter/index.js --watchAll=false -u",
+    "eject": "react-scripts eject",
+    "sonar": "sonar-scanner"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!coverage/**",
+      "!node_modules/**",
+      "!src/index.js",
+      "!public/**",
+      "!build/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    },
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "json",
+      "text",
+      "clover",
+      "cobertura"
+    ]
+  },
+  "jestSonar": {
+    "reportPath": ".",
+    "reportFile": "sonar-report.xml",
+    "indent": 4
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.2.8"
+  }
+}
